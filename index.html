@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  scroll-behavior: smooth;
 <head>
   <meta charset="UTF-8">
   <title>Karthikeyan P A | Automation Test Engineer</title>
@@ -22,6 +23,17 @@
     z-index: 1000;
   }
 
+  .header-left h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header-left p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
   .header-content {
     max-width: 1100px;
     margin: auto;
@@ -39,8 +51,8 @@
   }
 
   nav a:hover {
-    text-decoration: underline;
-  }
+  opacity: 0.75;
+}
 
   section {
     max-width: 1000px;
@@ -54,16 +66,42 @@
     margin-bottom: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    scroll-margin-top: 90px;
   }
+
+    footer {
+  background: #0f172a;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.footer-content p {
+  margin: 6px 0;
+}
+
+footer a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Karthikeyan P A</h1>
-  <p><strong>Automation Test Engineer</strong></p>
-  <nav>
+  <div class="header-content">
+    <div class="header-left">
+      <h1>Karthikeyan P A</h1>
+      <p>Automation Test Engineer</p>
+    </div>
+
+    <nav>
       <a href="#skills">Tech</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
@@ -71,6 +109,7 @@
       <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
+  </div>
 </header>
 
 <section>
@@ -279,32 +318,21 @@
 </section>
 
 <footer>
-  <div id="contact">
-  <p>
-    📍 <strong>Location:</strong> Chennai, India
-  </p>
-
-  <p>
-    📞 <strong>Phone:</strong>
-    <a href="tel:+918270476292">+91 8270476292</a>
-  </p>
-
-  <p>
-    📧 <strong>Email:</strong>
-    <a href="mailto:knkarthi446@gmail.com">knkarthi446@gmail.com</a>
-  </p>
-
-  <p>
-    🔗 <strong>LinkedIn:</strong>
-    <a href="https://www.linkedin.com/in/karthikeyan" target="_blank">
-      linkedin.com/in/karthikeyan
-    </a>
-  </p>
-</div>
+  <div class="footer-content" id="contact">
+    <p>📍 Chennai, India</p>
+    <p>📞 <a href="tel:+918270476292">+91 8270476292</a></p>
+    <p>📧 <a href="mailto:knkarthi446@gmail.com">knkarthi446@gmail.com</a></p>
+    <p>
+      🔗 <a href="https://www.linkedin.com/in/karthikeyan" target="_blank">
+        linkedin.com/in/karthikeyan
+      </a>
+    </p>
+  </div>
 </footer>
 
 </body>
 </html>
+
 
 
 
